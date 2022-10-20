@@ -493,27 +493,27 @@ const SecondarySupplieragreement: React.FC = () => {
                         return <tr key={index}>
                           <td><Input value={item?.distributionrewards} disabled={true} placeholder="请输入" /></td>
                           <td>
-                            <Select value={item?.expenseAccount} style={{ width: 120 }} onChange={handleExpenseAccountChange}>
+                            <Select value={item?.expenseAccount} style={{ width: '100%' }} onChange={handleExpenseAccountChange}>
                               <Option value="单选项1">单选项1</Option>
                             </Select>
                           </td>
                           <td><Input value={item?.retailDistribution} disabled={true} placeholder="请输入" /></td>
                           <td>
-                            <Select value={item?.expenseAccounts} style={{ width: 120 }} onChange={handleExpenseAccountChange}>
+                            <Select value={item?.expenseAccounts} style={{ width: '100%' }} onChange={handleExpenseAccountChange}>
                               <Option value="多选项1">多选项1</Option>
                             </Select>
                           </td>
                           <td><Input value={item?.medicalDistributors} disabled={true} placeholder="请输入" /></td>
                           <td>
-                            <Select value={item?.expenseAccountTwo} style={{ width: 120 }} onChange={handleExpenseAccountChange}>
+                            <Select value={item?.expenseAccountTwo} style={{ width: '100%' }} onChange={handleExpenseAccountChange}>
                               <Option value="多选项1">多选项1</Option>
                             </Select>
                           </td>
                           <td>
-                            <DatePicker value={moment(item?.custom7, dateFormat)} format={dateFormat} onChange={oncustom7TimeChange} />
+                            <DatePicker style={{ width: '100%' }} value={moment(item?.custom7, dateFormat)} format={dateFormat} onChange={oncustom7TimeChange} />
                           </td>
                           <td>
-                            <DatePicker value={moment(item?.custom8, dateFormat)} format={dateFormat} onChange={oncustom8TimeChange} />
+                            <DatePicker style={{ width: '100%' }} value={moment(item?.custom8, dateFormat)} format={dateFormat} onChange={oncustom8TimeChange} />
                           </td>
                         </tr>
                       }) : null
