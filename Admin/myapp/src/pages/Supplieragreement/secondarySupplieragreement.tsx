@@ -1,26 +1,14 @@
 import {
   PageContainer,
   ProForm,
-  ProFormCheckbox,
-  ProFormDigit,
-  ProFormDigitRange,
-  ProFormGroup,
-  ProFormRadio,
-  ProFormRate,
-  ProFormSegmented,
   ProFormSelect,
   ProFormDateTimePicker,
-  ProFormSlider,
-  ProFormSwitch,
   ProFormText,
-  ProFormUploadButton,
-  ProFormUploadDragger,
-  ProFormTextArea,
   ProFormDateRangePicker,
 } from '@ant-design/pro-components';
 import React, { useState, useEffect } from 'react';
 import { Button, Card, Typography, Table, Input, Select, DatePicker, message } from 'antd';
-import { DeleteOutlined, FormOutlined, ExclamationCircleOutlined, CaretDownOutlined, SmileOutlined, CloseOutlined } from '@ant-design/icons';
+import {  CloseOutlined } from '@ant-design/icons';
 import { FormattedMessage, useIntl } from 'umi';
 import moment from 'moment';
 import styles from './secondarySupplieragreement.less';
