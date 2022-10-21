@@ -6,7 +6,7 @@ import CSS from './index.module.less';
 import TabBarList from '../../components/TabBarList';
 import smallbellImage from '../../assets/images/smallbell.png';
 import functionImage from '../../assets/images/function.png';
-// import bannerlImage from '../../assets/images/banner.jpg';
+import bannerlImage from '../../assets/images/banner.jpg';
 
 const Work = () => {
   // const [workAllData, setWorkAllData] = useState({});
@@ -37,19 +37,19 @@ const Work = () => {
       //轮播
       let bannerData0 = [{
         link: '',
-        url: '../../assets/images/banner.jpg'
+        url: bannerlImage
       }, {
         link: '',
-        url: '../../assets/images/banner.jpg'
+        url: bannerlImage
       }, {
         link: '',
-        url: '../../assets/images/banner.jpg'
+        url: bannerlImage
       }, {
         link: '',
-        url: '../../assets/images/banner.jpg'
+        url: bannerlImage
       }, {
         link: '',
-        url: '../../assets/images/banner.jpg'
+        url: bannerlImage
       }]
       setBannerData(bannerData0);
 
